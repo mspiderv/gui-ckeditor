@@ -1,0 +1,19 @@
+{
+    "name": "vitlabs/gui-ckeditor",
+    "description": "CKEditor implementation of Editor contract.",
+    "authors": [
+		{
+			"name": "Matej Vitaz",
+			"email": "mspiderv@gmail.com"
+		}
+	],
+    "require": {
+        "vitlabs/gui-core": "@dev",
+        "vitlabs/gui-admin": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vitlabs\\GUICKEditor\\": ""
+        }
+    }
+}
