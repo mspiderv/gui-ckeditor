@@ -16,7 +16,6 @@ class CKEditor extends Element implements CKEditorContract {
     public function __construct()
     {
         $this->addClass('ckeditor');
-        $this->setAttribute('type', 'text');
         $this->setAttribute('rows', '3');
     }
 
